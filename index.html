@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot MT_Mito</title>
+    <style>
+        body {
+            background-color: #FFF9E6;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+
+        .left-section {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 20px;
+        }
+
+        .icon {
+            width: 250px;
+            height: 250px;
+            border-radius: 60%;
+            background-image: url('https://github.com/furanpito/MT_Mito/blob/main/IMG_2034.jpg?raw=true');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            margin-top: 25px;
+        }
+
+        h1 {
+            color: #FFB84D;
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+
+        footer {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .invite-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #7289DA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .invite-button:hover {
+            background-color: #5b6eae;
+            transform: scale(1.1);
+        }
+
+        .join-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #43B581;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .join-button:hover {
+            background-color: #36a069;
+            transform: scale(1.1);
+        }
+
+        /* Discordウィジェットを左下に配置 */
+        .bottom-left-widget {
+            position: absolute;
+            left: 20px;
+            bottom: 0%;
+            width: 40%; /* 変更: Discordのウィジェットに合わせた大きさ */
+            height: 40%;
+        }
+
+        /* スクリーンショットを右側に設置 */
+        .right-bottom-image {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            width: 35%; /* スクリーンショットのサイズ調整 */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-section">
+        <div class="icon"></div>
+        <div class="content">
+            <h1>✨ Discord Bot 荒らし対策 ✨</h1>
+            <p>サーバーを安全に保つための対策ボット！<br>サーバーに入れるだけでスパムや荒らし行為を自動検知＆対策します。<br>荒らし対策だけだから扱いやすい！</p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1334070304519225366&permissions=8&integration_type=0&scope=bot" class="invite-button" target="_blank">🚀 ボットを招待する</a>
+            <a href="https://discord.gg/sddjH5S8Nr" class="join-button" target="_blank">💬 サーバーに参加する</a>
+        </div>
+        <footer>開発者: PT_Me-rin</footer>
+    </div>
+
+    <!-- Discordウィジェットを左下に配置 -->
+    <iframe src="https://discordapp.com/widget?id=1335201645503582239&theme=dark" class="bottom-left-widget" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+    <!-- スクリーンショットを右側に設置 -->
+    <img src="https://github.com/furanpito/MT_Mito/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-02-02%20021054.png?raw=true" class="right-bottom-image" alt="スクリーンショット">
+</body>
+</html>
