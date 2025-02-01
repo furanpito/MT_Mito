@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-wrap: wrap; /* 要素をラップする */
             height: 100vh;
             position: relative;
         }
@@ -104,6 +105,45 @@
             bottom: 20px;
             width: 35%; /* スクリーンショットのサイズ調整 */
             height: auto;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column; /* スマホ向けに縦並び */
+                height: auto;
+            }
+
+            .left-section {
+                width: 100%; /* 左側を100%に */
+                padding: 10px;
+            }
+
+            .icon {
+                width: 150px; /* アイコンを小さくする */
+                height: 150px;
+            }
+
+            .right-section {
+                width: 100%; /* 右側を100%に */
+                margin-top: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 50vh; /* 高さを調整 */
+            }
+
+            .bottom-left-widget {
+                width: 100%; /* ウィジェットを100%に */
+                height: 50%; /* 高さ調整 */
+            }
+
+            .right-bottom-image {
+                width: 80%; /* 画像のサイズ調整 */
+                right: 0;
+                bottom: 10px;
+            }
         }
     </style>
 </head>
